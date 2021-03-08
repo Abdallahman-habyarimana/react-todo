@@ -1,4 +1,4 @@
-# Open live demo here [https://abdallahman-habyarimana.github.io/react-todo/](https://abdallahman-habyarimana.github.io/react-todo/)
+# Open live demo [Here](https://abdallahman-habyarimana.github.io/react-todo/)
 
 # Getting Started with Create React App
 
