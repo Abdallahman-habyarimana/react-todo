@@ -69,7 +69,7 @@ handleSubmit = e => {
             </form>
           </div>
           <div className="right">
-            <TodoList todo={this.state.todoList} onDelete={this.handleDelete} onUpdate={this.handleUpdate} />
+            { (this.state.todoList.length === 0) ? '' : <TodoList todo={this.state.todoList} onDelete={this.handleDelete} onUpdate={this.handleUpdate} /> } 
           </div>
           
         </div>

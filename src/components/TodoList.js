@@ -3,8 +3,6 @@ import 'font-awesome/css/font-awesome.min.css'
 const TodoList = ({ todo, onDelete }) => {
     return (
         <div>
-            {
-                (todo.length === 0) ? " " : (
                     <table>
                         <thead>
                             <tr>
@@ -21,8 +19,6 @@ const TodoList = ({ todo, onDelete }) => {
                         )} 
                 </tbody>
             </table>
-                )
-            }
         </div>
       
     )
