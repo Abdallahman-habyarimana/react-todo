@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+/* .container {
+    margin-top: 20px;
+    color: #fff;
+    width: 800px;
+    height: 800px;
+    border-radius: 50px 50px;
+    box-shadow: 1px green;
+    background-color: honeydew;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text__title {
+    position: static;
+    height: 80px;
+    width: 800px;
+    background-color: green;
+    color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ @media only screen and(max-width: 768px){
+    .text__title {
+        position: fixed;
+        height: 800px;
+        background-color: green;
+        color: #fff;
+    }
+} 
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.6rem;
+    color: grey;
+}
+
+form {
+    padding: 20px;
+    margin-left: 60px;
+}
+
+form label {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: grey;
+    padding-right: 20px;
+}
+
+.todo__container {
+    clear: both;
+    margin-top: auto;
+}
+
+input[type=text] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #eee;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+} 
+
+*/
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+label {
+    padding: 20px;
+    color: #fff;
+}
+
+input[type=text] {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    font-weight: 800;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: green;
+    background-color: white;
+}
+
+table {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    color: #fff;
+    padding: 8px;
   }
+
+table tr:nth-child(even){
+    color: green;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+i{
+    background-color: #4CAF50;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon {
+    cursor: pointer;
 }
+
+.icon:hover {
+    background-color: #fff;
+    
+}
+
+  
+
+
+
