@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-todo/static/css/main.428c76f2.chunk.css",
+    "main.js": "/react-todo/static/js/main.e2fc222f.chunk.js",
+    "main.js.map": "/react-todo/static/js/main.e2fc222f.chunk.js.map",
+    "runtime-main.js": "/react-todo/static/js/runtime-main.8a6594ee.js",
+    "runtime-main.js.map": "/react-todo/static/js/runtime-main.8a6594ee.js.map",
+    "static/css/2.d4349751.chunk.css": "/react-todo/static/css/2.d4349751.chunk.css",
+    "static/js/2.061ac97a.chunk.js": "/react-todo/static/js/2.061ac97a.chunk.js",
+    "static/js/2.061ac97a.chunk.js.map": "/react-todo/static/js/2.061ac97a.chunk.js.map",
+    "index.html": "/react-todo/index.html",
+    "static/css/2.d4349751.chunk.css.map": "/react-todo/static/css/2.d4349751.chunk.css.map",
+    "static/css/main.428c76f2.chunk.css.map": "/react-todo/static/css/main.428c76f2.chunk.css.map",
+    "static/js/2.061ac97a.chunk.js.LICENSE.txt": "/react-todo/static/js/2.061ac97a.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/react-todo/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a6594ee.js",
+    "static/css/2.d4349751.chunk.css",
+    "static/js/2.061ac97a.chunk.js",
+    "static/css/main.428c76f2.chunk.css",
+    "static/js/main.e2fc222f.chunk.js"
+  ]
+}
