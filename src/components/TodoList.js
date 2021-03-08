@@ -16,8 +16,7 @@ const TodoList = ({ todo, onDelete }) => {
                             <td>{item.description}</td>
                             <td><i className="fa fa-trash-o icon" onClick={ () => onDelete(item.index)}></i></td>
                         </tr> 
-                        )}
-                    
+                        )} 
                 </tbody>
             </table>
         </div>
