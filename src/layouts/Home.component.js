@@ -5,16 +5,22 @@ import Todo from '../components/Todo/Todo.component'
 
 const Home = () => {
   return (
-    <Container sm={1} md={2} lg={3}>
+    <Container className='mt-5'>
         <Row>
-        <Col>2 of 2</Col>
-      </Row>
-      <Row>
-        <Col sm>
+          <Col>
             <Todo />
         </Col>
-        <Col>2 of 3</Col>
-        <Col>3 of 3</Col>
+      </Row>
+      <Row className='mt-5'>
+        <Col>
+            <Todo />
+        </Col>
+        <Col>
+            <Todo />
+        </Col>
+        <Col>
+            <Todo />
+        </Col>
       </Row>
     </Container>
   )

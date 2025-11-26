@@ -5,6 +5,7 @@ import Signin from './components/Signin.component';
 import Register from './components/Register.component';
 import Loading from './components/Loading.component';
 import Home from './layouts/Home.component';
+import { Container } from 'react-bootstrap';
 
 class App extends React.Component {
   constructor() {
@@ -51,9 +52,11 @@ class App extends React.Component {
 
 render() {
   return(
-    <>
-      <Home />
-    </>
+    <Container fluid as={'div'} className='min-vh-100 p-0'>
+      <Navigation />
+        <Home />
+      
+    </Container>
   )
 }
 }
